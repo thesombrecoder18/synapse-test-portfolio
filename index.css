@@ -3,3 +3,25 @@
     justify-content: center;
     align-items: center;
 }
+
+.galerie{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.galerie img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.galerie img:hover {
+    transform: scale(1.1);
+}
+h1{
+    display: block;
+}
